@@ -1,0 +1,44 @@
+.navbar {
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(163, 163, 210);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+}
+.links {
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120px;
+}
+a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    position: relative;
+}
+
+a span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    color: black;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
